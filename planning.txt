@@ -1,0 +1,38 @@
+Voting Application
+user can give votes to the given set of  candidate
+
+
+Models?
+Routes?
+
+Voting App Functionality
+
+1. user sign in/up
+2. List of candidate
+3. Only one vote per user
+4. live count to be showed to the user
+5. Unique Id proof; Aadhar Card Number
+6. A person Maintain  Candidate List and he cannot vote 
+7. user can change their password
+8. User login through aadhar n password only
+------------------------------------ 
+Routes
+Authentication:
+   singup
+   login
+
+Voting: 
+    Candidate List --> GET Method
+    User Will vote POST ==> T Method
+
+
+Vote count:
+
+User Profile: 
+    Porfile Info
+    
+
+Admin Candidate Management;
+    POST - Create new candidate
+    Update Candidate
+    Delete a Candidate
